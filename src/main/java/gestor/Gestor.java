@@ -15,12 +15,10 @@ public class Gestor<T> {
     }
 
 
-    public T obtain(int indice) {
-        return lista.obtain(indice);
-    }
 
 
-    public T search(T elemento) {
+
+    public boolean search(T elemento) {
         return lista.search(elemento);
     }
 
